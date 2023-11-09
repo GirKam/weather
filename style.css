@@ -1,0 +1,42 @@
+body{
+    background-color: #142329;
+    color: rgb(47, 38, 27);
+    font-size: 25px;
+}
+.big_container{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    width: 500px;
+    display: flex;
+    justify-content:space-around;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+.location__weather{
+    margin-top: 20px;
+}
+.weather__city{
+    display: flex;
+    justify-content: space-around;
+}
+.weather__temperature {
+    display: flex;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+.btn,.choise{
+    background-color: rgb(0, 255, 89);
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+.none{
+    display: none;    
+}

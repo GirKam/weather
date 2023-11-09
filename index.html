@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <div class="big_container">
+    
+        <div class="container none">            
+            <div class="location__weather">
+                <div class="weather__city">
+                    <div class="city" type="text">kazan   </div>         
+                    <div class="country">Russia</div>
+                </div>
+                
+                <div class="weather__temperature">
+                    <label for="text" class="tem">Температура:</label>
+                    <div class="temp">7</div>
+                </div>
+                
+                <div class="feels_weather">
+                    <label for="text">Ощущается как:</label>
+                    <div class="weather__feels"></div>
+                </div>
+            </div>     
+            <div class="condition">                
+                <img src="#" alt="lll"> 
+                <div class="text__weather"></div>
+                <div class="wind_1">
+                    <label for="text">Скорость ветра</label>
+                    <div class="wind"></div>
+                </div>
+            </div>   
+        </div>         
+        
+        <div class="search">
+            <input type="text" class="choise" placeholder="Введите город">
+            <button class="btn">Найти</button>
+        </div>
+    </div>   
+
+    <script src="app.js"></script>
+</body>
+</html>
